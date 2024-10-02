@@ -1,0 +1,129 @@
+<h1 id="Project-work">Project work<a class="anchor-link" href="#Project-work">&#182;</a></h1><h4 id="TKO_7093-Statistical-Data-Analysis---autumn-2024">TKO_7093 Statistical Data Analysis - autumn 2024<a class="anchor-link" href="#TKO_7093-Statistical-Data-Analysis---autumn-2024">&#182;</a></h4><hr>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="Authors:">Authors:<a class="anchor-link" href="#Authors:">&#182;</a></h4><ul>
+<li><font color=red><b>[insert your name and student id here]</b></font></li>
+<li><font color=red><b>[insert your name and student id here]</b></font></li>
+<li><font color=red><b>[insert your name and student id here]</b></font></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<hr>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Preface">Preface<a class="anchor-link" href="#Preface">&#182;</a></h2><p>In this project, you are required to design and execute a statistical analysis that addresses the given objectives. You also need to write a report that documents your analysis and its findings as well as demonstrates your ability to apply theoretical concepts to a practical analysis. <strong>See the instructions in Moodle regarding how and when to submit your project report.</strong> If you have any questions about the project, please contact Juho Heimonen (juaheim@utu.fi).</p>
+<p>Your report will be marked out of 100 points according to the following scheme:</p>
+<table>
+<thead><tr>
+<th style="text-align:right">Category</th>
+<th style="text-align:center">Max. points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">data preparation</td>
+<td style="text-align:center">16</td>
+</tr>
+<tr>
+<td style="text-align:right">use of descriptive statistics</td>
+<td style="text-align:center">16</td>
+</tr>
+<tr>
+<td style="text-align:right">use of estimation and statistical tests</td>
+<td style="text-align:center">16</td>
+</tr>
+<tr>
+<td style="text-align:right">argumentation for design choices</td>
+<td style="text-align:center">26</td>
+</tr>
+<tr>
+<td style="text-align:right">interpretation of results</td>
+<td style="text-align:center">26</td>
+</tr>
+</tbody>
+</table>
+<p>Each category will be evaluated for extent, correctness and overall quality. For full points, you must thoroughly demonstrate that you understand the relevant statistical theories and are able to correctly apply them as well as that you can skillfully execute and report a statistical analysis. Partial points can be obtained for an incomplete or imperfect solution, provided that your approach is correct. It is therefore recommended that you show your best attempt even if you know it is not fully correct.</p>
+<p>In the exam, there will be one essay question about the project work. It will be worth 20 points. The total number of points associated with this project is therefore 120.</p>
+<p>As you can see, you are expected to not only apply correct methods in your analysis but also explain what is the objective of each step of your analysis, make arguments for the methods you decided to use, interpret your results, and make conclusions which address the questions and tasks that are given in the scenario. Therefore, in your project report, show your code and its output as well as describe your methods, results and conclusions. Remember to discuss the relevant theoretical details and to connect them to your analysis.</p>
+<p>The project is framed as a hypothetical scenario in order to give the analysis some context and flavour. Remember to take the scenario into account while performing your analysis and writing your report. The detailed instructions of the project are given below.</p>
+<hr>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Instructions">Instructions<a class="anchor-link" href="#Instructions">&#182;</a></h2><p>Dear Data Scientist Team,</p>
+<p>As you know, some time ago we launched a survey to gain information on living habits of individual persons and households. The survey data is now available for analysis. Your task is to analyse which activities people spend their time on and whether there are differences between groups.</p>
+<p>The files <code>habits.data</code> and <code>habits.txt</code> contain the data and its documentation, respectively. Given that the complete data set is huge, we need you to focus on specific parts of the data. Use only the following variables in your analysis:</p>
+<ul>
+<li>kohde</li>
+<li>jasen</li>
+<li>pvknro</li>
+<li>sp</li>
+<li>IKAL1</li>
+<li>ASALUE</li>
+<li>V1</li>
+<li>V21</li>
+<li>V32</li>
+<li>V40</li>
+<li>H1a_A</li>
+<li>H1h_A</li>
+</ul>
+<p>Note that the files also contain some additional variables. Simply ignore them because they will be analysed by another team. In the current phase of our research process, we need you to address the following tasks and questions:</p>
+<ol>
+<li>Characterise the individuals that are present in the data. Are there groups of similar persons?</li>
+<li>Estimate how much time on average households spend daily on each activity.</li>
+<li>With respect to which activities do men and women differ?</li>
+<li>With respect to which activities do living environments differ?</li>
+<li>Which activities are associated with each other?</li>
+</ol>
+<p>Design and execute a statistical analysis that addresses these tasks and questions. Write a comprehensive report that documents your analysis and its results. Describe the objective of each step of the analysis, explain what methods you used and why, describe your findings, and finally make conclusions that answer the questions. The report needs to be stand-alone, so show your code and its output, as well.</p>
+<p>Looking forward to receiving your report!</p>
+<p>Yours, <br>
+Head of Research</p>
+<hr>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><font color=red><b>[write your analysis code and report here]</b></font></p>
